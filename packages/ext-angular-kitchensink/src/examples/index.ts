@@ -184,6 +184,8 @@ import {TabBarComponent} from './Tabs/TabBar/TabBar';
 
 import {WizardComponent} from './Wizard/Wizard';
 
+import {FroalaEditorComponent} from './FroalaEditor/FroalaEditor';
+
 import {TreeMapToolTipComponent} from './D3/Hierarchy/TreeMapToolTip/TreeMapToolTip';
 import {ConfigurablePivotTreeMapComponent} from './D3/Hierarchy/ConfigurablePivotTreeMap/ConfigurablePivotTreeMap';
 import {TreeMapComponent} from './D3/Hierarchy/TreeMap/TreeMap'; 
@@ -299,7 +301,8 @@ const treeRoot = {
         { text: 'ToolTip', component: ToolTipComponent, layout: 'center', navIcon: 'icon-tooltips'  },
         { text: 'Touch Events', component: TouchEventsComponent, navIcon: 'icon-touch-events' },
         //{ text: 'Transition', component: Transition, navIcon: 'icon-Transition' },
-        { text: 'Wizard', component: ButtonComponent, navIcon: 'icon-layout-card-indicator', layout: Ext.os.is.Phone ? 'fit': 'center' }
+        { text: 'Wizard', component: WizardComponent, navIcon: 'icon-layout-card-indicator', layout: Ext.os.is.Phone ? 'fit': 'center' },
+        { text: 'FroalaEditor', component: FroalaEditorComponent, navIcon: 'icon-editor', layout: Ext.os.is.Phone ? 'fit': 'center' }
       ]},
 
       { text: 'Grids', navIcon: 'icon-grids', children: [

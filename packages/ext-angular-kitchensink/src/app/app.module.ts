@@ -195,6 +195,8 @@ import {ClosableTabComponent} from '../examples/Tabs/Closable/Closable';
 import {TabBarComponent} from '../examples/Tabs/TabBar/TabBar';
 import {WizardComponent} from '../examples/Wizard/Wizard';
 
+import {FroalaEditorComponent} from '../examples/FroalaEditor/FroalaEditor';
+
 import {CalendarService} from "../examples/Calendar/Calendar.service"
 import {GridService} from '../examples/Grid/Grid.service'
 import {BigDataService} from '../examples/Grid/AdvancedFeatures/BigData/BigData.service'
@@ -247,6 +249,8 @@ const routes: ExtAngularRoutes = [
   { path: 'components/tabs', component: DummyComponent, text: 'components', iconCls: 'x-fa fa-calendar', xtype: 'homeview', leaf: true },
   { path: 'components/touch_events', component: TouchEventsComponent, text: 'components', iconCls: 'x-fa fa-calendar', xtype: 'homeview', leaf: true },
   { path: 'components/wizard', component: WizardComponent, text: 'Wizard', iconCls: 'x-fafa-calendar', xtype: 'homeview', leaf: true },
+
+  { path: 'components/froalaeditor', component: FroalaEditorComponent, text: 'Froala Editor', iconCls: 'x-fafa-calendar', xtype: 'homeview', leaf: true },
 
   { path: 'grids', component: DummyComponent, text: 'Grids', iconCls: 'x-fa fa-calendar', xtype: 'homeview', leaf: true },
   { path: 'grids/core_features', component: DummyComponent, text: 'Grids Core Features', iconCls: 'x-fa fa-calendar', xtype: 'homeview', leaf: true },
@@ -657,6 +661,8 @@ export const routingModule: ModuleWithProviders = RouterModule.forRoot(routes, {
     // ScrollingTabComponent,
     TabBarComponent,
     WizardComponent,
+
+    FroalaEditorComponent,
 
     ConfigurablePivotHeatmapComponent,
     PivotHeatmapComponent,
