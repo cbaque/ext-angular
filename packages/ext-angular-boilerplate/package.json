@@ -14,11 +14,11 @@
     "@sencha/ext-webpack-plugin": "~7.0.0",
     "@sencha/ext-angular": "~7.0.0",
 
-    "@sencha/ext": "~6.7.0",
-    "@sencha/ext-modern": "~6.7.0",
-    "@sencha/ext-modern-treegrid": "~6.7.0",
-    "@sencha/ext-modern-theme-material": "~6.7.0",
-    "@sencha/ext-ux": "~6.7.0",
+    "@sencha/ext": "~7.0.0",
+    "@sencha/ext-modern": "~7.0.0",
+    "@sencha/ext-modern-treegrid": "~7.0.0",
+    "@sencha/ext-modern-theme-material": "~7.0.0",
+    "@sencha/ext-ux": "~7.0.0",
 
     "@angular/common": "~8.0.2",
     "@angular/compiler": "~8.0.2",
