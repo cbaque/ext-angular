@@ -150,6 +150,9 @@ import {TabularLayoutComponent} from './PivotGrid/TabularLayout/TabularLayout'
 
 import { CarouselComponent } from './Carousel/Carousel';
 
+import { FroalaComponent } from './Froala/Froala';
+
+
 import {SimpleDragDropComponent} from './DragAndDrop/Simple/Simple';
 import {ConstraintsDragDropComponent} from './DragAndDrop/Constraints/Constraints';
 import {ProxiesDragDropComponent} from './DragAndDrop/Proxies/Proxies';

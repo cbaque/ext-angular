@@ -1,0 +1,17 @@
+<formpanel
+  layout="fit"
+  height="90%"
+  width="95%"
+  title="Ext.froala.EditorField insde a form panel"
+  [buttons]="buttonsConfig"
+>
+  <froalaeditorfield
+    name="html"
+    margin="16"
+    (ready)="onEditorFieldReady($event)"
+    [editor]="editorConfig"
+    [value]="value"
+    [listeners]="listenersConfig"
+  >
+  </froalaeditorfield>
+</formpanel>
